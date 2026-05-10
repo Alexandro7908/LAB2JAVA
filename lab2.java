@@ -24,7 +24,6 @@ public class lab2 {
             public void run() {
                 refactor_time(10);
                 refactor_time(10000);
-                refactor_time(100000);
             }
         }
         public class zad15 {
