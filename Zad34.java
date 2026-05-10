@@ -147,7 +147,6 @@ public class Zad34 {
             System.out.println("  СТОП\n");
 
             while (true) {
-                System.out.print("> ");
                 var line = scanner.nextLine().trim();
                 if (line.isEmpty()) {
                     continue;

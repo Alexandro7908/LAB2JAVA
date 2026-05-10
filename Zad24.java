@@ -75,7 +75,6 @@ public class Zad24 {
             System.out.println("Для начальника вместо 'Руководитель' введите '-' или 'нет'. Для выхода: 'стоп'");
 
             while (true) {
-                System.out.print("> ");
                 var input = scanner.nextLine().trim();
 
                 if (input.equalsIgnoreCase("стоп") || input.equalsIgnoreCase("exit")) {
